@@ -4,6 +4,7 @@ import { Main } from './Main';
 
 describe('Main template', () => {
   describe('Render method', () => {
+    // eslint-disable-next-line jest/no-commented-out-tests
     // it('should have 8 menu items', () => {
     //   render(<Main meta={null}>{null}</Main>);
 
@@ -20,15 +21,9 @@ describe('Main template', () => {
 
       expect(copyrightSection).toBeInTheDocument();
 
-      /*
-       * PLEASE READ THIS SECTION
-       * We'll really appreciate if you could have a link to our website
-       * The link doesn't need to appear on every pages, one link on one page is enough.
-       * Thank you for your support it'll mean a lot for us.
-       */
       // expect(copyrightLink).toHaveAttribute(
       //   'href',
-      //   'https://creativedesignsguru.com',
+      //   'https://famousglobe.com',
       // );
     });
   });
