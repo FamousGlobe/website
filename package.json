@@ -24,7 +24,7 @@
     "postbuild": "next-sitemap"
   },
   "dependencies": {
-    "@clerk/nextjs": "^4.27.2",
+    "@clerk/nextjs": "^4.29.3",
     "next": "^14.0.3",
     "next-seo": "^6.4.0",
     "next-sitemap": "^4.2.3",
